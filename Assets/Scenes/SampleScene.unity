@@ -1205,6 +1205,9 @@ GameObject:
   - component: {fileID: 554581363}
   - component: {fileID: 554581362}
   - component: {fileID: 554581361}
+  - component: {fileID: 554581365}
+  - component: {fileID: 554581367}
+  - component: {fileID: 554581366}
   m_Layer: 0
   m_Name: Meow-Knight_Idle_0 (1)
   m_TagString: Untagged
@@ -1345,6 +1348,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &554581365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554581360}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f700f07c7df50284bab287639ca52fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaplayer: 100
+  powerup: 0
+--- !u!114 &554581366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554581360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e88512d94d0e84fbedd18b55a6f403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaplayer: 100
+  powerup: 1
+--- !u!114 &554581367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554581360}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5fca91aa627b5140822e4cd0965938a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerup: 0
 --- !u!1 &678195709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2466,7 @@ GameObject:
   - component: {fileID: 1189017589}
   - component: {fileID: 1189017592}
   - component: {fileID: 1189017591}
+  - component: {fileID: 1189017593}
   m_Layer: 0
   m_Name: Meow-Knight_Idle_0
   m_TagString: Untagged
@@ -2562,6 +2607,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.007787049, y: 0.064246535}
   m_Radius: 0.45921642
+--- !u!114 &1189017593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d8c4f0251345b4a99a5115fe449eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variavelpublica: 
 --- !u!1 &1241835569
 GameObject:
   m_ObjectHideFlags: 0
