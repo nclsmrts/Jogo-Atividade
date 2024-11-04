@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Exercicio06 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] int personagem;
+   
     void Start()
     {
         //        (Escolha de personagem) O jogador pode escolher entre o
@@ -10,6 +11,25 @@ public class Exercicio06 : MonoBehaviour
         //jogador selecionar Guerreiro e "Mago escolhido" se selecionar
         //Mago.
 
+
+
+        switch (personagem)
+        {
+
+            case 1:
+                print("Guerreiro escolhido");
+                break;
+
+            case 2:
+                print("Mago escolhido");
+                break;
+
+
+            default:
+                print("Personagem não encontrado");
+                break;
+
+        }
 
     }
 
