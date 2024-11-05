@@ -29,6 +29,10 @@ public class Exercicio10 : MonoBehaviour
                 print("Você obteve um Power-Up");
                 print("Está mais forte!!");
                 break;
+
+            default:
+                print("Não coletou item");
+                break;
         }
     }
 
