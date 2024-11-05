@@ -2476,6 +2476,7 @@ GameObject:
   - component: {fileID: 1189017600}
   - component: {fileID: 1189017601}
   - component: {fileID: 1189017602}
+  - component: {fileID: 1189017603}
   m_Layer: 0
   m_Name: Meow-Knight_Idle_0
   m_TagString: Untagged
@@ -2746,13 +2747,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189017588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c922e2d1f313d4c4599774cfbdd2b0b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pontosA: 0
   pontosB: 0
+--- !u!114 &1189017603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fa21998e6bb4d4da4aef3488559468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itens: 1
 --- !u!1 &1241835569
 GameObject:
   m_ObjectHideFlags: 0
