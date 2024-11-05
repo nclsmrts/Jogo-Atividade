@@ -2467,6 +2467,14 @@ GameObject:
   - component: {fileID: 1189017592}
   - component: {fileID: 1189017591}
   - component: {fileID: 1189017593}
+  - component: {fileID: 1189017596}
+  - component: {fileID: 1189017595}
+  - component: {fileID: 1189017594}
+  - component: {fileID: 1189017597}
+  - component: {fileID: 1189017598}
+  - component: {fileID: 1189017599}
+  - component: {fileID: 1189017600}
+  - component: {fileID: 1189017601}
   m_Layer: 0
   m_Name: Meow-Knight_Idle_0
   m_TagString: Untagged
@@ -2614,12 +2622,122 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189017588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06d8c4f0251345b4a99a5115fe449eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   variavelpublica: 
+--- !u!114 &1189017594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e88512d94d0e84fbedd18b55a6f403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaplayer: 0
+  powerup: 0
+--- !u!114 &1189017595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5fca91aa627b5140822e4cd0965938a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerup: 0
+--- !u!114 &1189017596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f700f07c7df50284bab287639ca52fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaplayer: 100
+  powerup: 0
+--- !u!114 &1189017597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfafcd4547ad9944e8422130e465b74b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaovida: 0
+--- !u!114 &1189017598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5a2eca6e0642f4aa2be9f0c0d6a4ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontosplayer: 0
+  pontuacao: 0
+--- !u!114 &1189017599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47b76d79271fc341af03c5dab795234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personagem: 1
+--- !u!114 &1189017600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33efcf3d352507647916a772341ee464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insira: 10
+  numerosfaces: 0
+--- !u!114 &1189017601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189017588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9d7c307a5b574489419f4efe5a6ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horas: 0
+  segundos: 0
+  dias: 0
 --- !u!1 &1241835569
 GameObject:
   m_ObjectHideFlags: 0
