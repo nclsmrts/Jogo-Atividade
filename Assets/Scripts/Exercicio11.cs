@@ -3,7 +3,9 @@ using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 public class Exercicio11 : MonoBehaviour
 {
+    [SerializeField] string[] ndialogos = { "Você comprou uma espada", "Você comprou uma Poção", "Você comprou um Mapa", "Você já obteve essa espada", "Você já obteve essa Poção", "Você já obteve esse Mapa" };
     [SerializeField] int dialogos = 0;
+    [SerializeField] bool item;
     void Start()
     {
         //        (Diálogos)Implemente um sistema de diálogos onde o jogador
@@ -12,30 +14,8 @@ public class Exercicio11 : MonoBehaviour
         //Use switch case para definir as respostas baseadas no estado do
         //jogador.
 
-        print("O que deseja comprar\n 1 - Espada \n 2 - Pocão \n 3 - Mapa");
+        print("O que deseja comprar 1 - Espada  2 - Pocão  3 - Mapa");
 
-        //switch (dialogos)
-        //{
-        //    case 1:
-        //        print("Você comprou uma espada");
-        //        break;
-
-        //    case 2:
-        //        print("Você comprou uma Poção");
-        //        break;
-
-        //    case 3:
-        //        print("Você comprou um Mapa");
-        //        break;
-
-        //    default:
-        //        print("Não existe essa opção");
-        //        break;
-        //}
-
-        //if (Input.GetKeyDown(KeyCode.E){
-
-        //}
 
     }
 
@@ -45,19 +25,69 @@ public class Exercicio11 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            print("Você comprou uma espada");
+            dialogos++;
+            switch (dialogos)
+            {
+                case 1:
+                    if (dialogos == 1 && item)
+                    {
+                        print(ndialogos[3]);
+                        dialogos = 0;
+                    }
+                    else if (dialogos == 1 && !item)
+                    {
+                        print(ndialogos[0]);
+                        dialogos = 0;
+                    }
+                    break;
+            }
+            dialogos = 0;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            print("Você comprou uma Poção");
+            dialogos++;
+            switch (dialogos)
+            {
+                case 1:
+                    if (dialogos == 1 && item)
+                    {
+                        print(ndialogos[4]);
+                        dialogos = 0;
+                    }
+                    else if (dialogos == 1 && !item)
+                    {
+                        print(ndialogos[1]);
+                        dialogos = 0;                     
+                    }
+
+                    break;
+            }
+            dialogos = 0;
         }
+
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            print("Você comprou um Mapa");
+            dialogos++;
+            switch (dialogos)
+            {
+                case 1:
+                    if (dialogos == 1 && item)
+                    {
+                        print(ndialogos[5]);
+                        dialogos = 0;
+                    }
+                    else if (dialogos == 1 && !item)
+                    {
+                        print(ndialogos[2]);
+                        dialogos = 0;
+                    }
+                    break;
+            }
+            dialogos = 0;
         }
-        else
-        {
-            //print("Não existe essa opção");
-        }
+
+
+
+
     }
 }

@@ -2780,7 +2780,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29da67fa6b07df446a14e1ef178f335a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ndialogos:
+  - "Voc\xEA comprou uma espada"
+  - "Voc\xEA comprou uma Po\xE7\xE3o"
+  - "Voc\xEA comprou um Mapa"
+  - "Voc\xEA j\xE1 obteve essa espada"
+  - "Voc\xEA j\xE1 obteve essa Po\xE7\xE3o"
+  - "Voc\xEA j\xE1 obteve esse Mapa"
   dialogos: 0
+  item: 0
 --- !u!1 &1241835569
 GameObject:
   m_ObjectHideFlags: 0
