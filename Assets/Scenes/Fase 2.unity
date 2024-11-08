@@ -1447,6 +1447,8 @@ GameObject:
   - component: {fileID: 1718399274}
   - component: {fileID: 1718399277}
   - component: {fileID: 1718399276}
+  - component: {fileID: 1718399278}
+  - component: {fileID: 1718399279}
   m_Layer: 0
   m_Name: slime_purple_3
   m_TagString: Untagged
@@ -1594,7 +1596,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718399271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82385a1f78daf634d8366d4a1eda15c5, type: 3}
   m_Name: 
@@ -1613,6 +1615,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3288ade0fd9e2048a18a73bd1a5b56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1718399278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718399271}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6a834419bdfda5498e270105025d7db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fases: 1
+  moedas: 0
+--- !u!114 &1718399279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718399271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8895080d4913f643a9264a7ffc956df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combos: 0
+  pontos: 0
 --- !u!1 &1761158568
 GameObject:
   m_ObjectHideFlags: 0
