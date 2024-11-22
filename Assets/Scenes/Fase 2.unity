@@ -1451,6 +1451,9 @@ GameObject:
   - component: {fileID: 1718399279}
   - component: {fileID: 1718399280}
   - component: {fileID: 1718399281}
+  - component: {fileID: 1718399282}
+  - component: {fileID: 1718399283}
+  - component: {fileID: 1718399284}
   m_Layer: 0
   m_Name: slime_purple_3
   m_TagString: Untagged
@@ -1666,11 +1669,49 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718399271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b444f4dce99dc47438000434235c3cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1718399282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718399271}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab2f02fd3be88b4e8023c5677166f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1718399283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718399271}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d027c2e9bf7cfe48a7e2fb405542c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1718399284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718399271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7cb46535f7c5bb4abf76fe1060dc317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: JOGOS digitais
+  contadorConsoantes: 0
 --- !u!1 &1761158568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,7 +1896,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 6937817954938267909, guid: b2a668b74b1f4b7419cea6d2ac61109a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
