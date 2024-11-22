@@ -1454,6 +1454,7 @@ GameObject:
   - component: {fileID: 1718399282}
   - component: {fileID: 1718399283}
   - component: {fileID: 1718399284}
+  - component: {fileID: 1718399285}
   m_Layer: 0
   m_Name: slime_purple_3
   m_TagString: Untagged
@@ -1705,13 +1706,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718399271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7cb46535f7c5bb4abf76fe1060dc317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   texto: JOGOS digitais
   contadorConsoantes: 0
+--- !u!114 &1718399285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718399271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23cb9909389faa47bf6a9a0de3076d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diaNascimento: 0
+  mesNascimento: 0
+  anoNascimento: 0
 --- !u!1 &1761158568
 GameObject:
   m_ObjectHideFlags: 0
